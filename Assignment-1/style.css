@@ -11,10 +11,11 @@
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
+    background-color: rgb(42, 41, 40);
 }
 .heading-box
 {
@@ -180,7 +181,7 @@
     }
     .tiles-box
     {
-        height: 55vh;
+        height: max-content;
     }
 }
 @media only screen and (max-width : 225px) 
@@ -203,7 +204,6 @@
     }
     .tiles-box
     {
-        height: max-content;
         padding-bottom: 0.7rem;
         margin-bottom: 0;
     }
