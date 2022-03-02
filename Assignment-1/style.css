@@ -7,6 +7,10 @@
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
+body
+{
+    background-color: rgb(42, 41, 40);
+}
 .container
 {
     display: flex;
